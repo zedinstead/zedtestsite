@@ -1,0 +1,112 @@
+footer {
+  background-color: #fdb82b;
+}
+
+.container-custom {
+  background-color: #1a202c;
+}
+
+body {
+  background-color: #1a202c !important;
+}
+
+.contain1 {
+  color: white;
+  align-items: center;
+  font-style: Arial;
+}
+
+.contain2 {
+  color: black;
+  background-color: #fdb82b;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+a:link {
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contain3 {
+  font-style: Arial;
+}
+
+.contain9 {
+  color: #1a202c;
+  background-color: #1a202c;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.image_off,
+#home:hover .image_on {
+  display: none;
+}
+.image_on,
+#home:hover .image_off {
+  display: block;
+}
+
+.li {
+  padding-right: 8px;
+}
+
+.navbar-custom {
+  background-color: #fdb82b;
+}
+
+.Box1 {
+  display: flex;
+  align-items: center;
+  background: gray.700;
+  border-radius: sm;
+}
+
+.Button1 {
+  background-color: gray.800;
+  border-radius: xl;
+  border: 1px solid transparent;
+  m: 1px;
+  px: 3;
+  height: 38px;
+}
+.button1:hover {
+  border: 1px;
+  border-style: solid;
+  border-color: blue.400;
+  background-color: gray.700;
+}
+
+.Text1 {
+  color: white;
+  font-size: md;
+  font-weight: medium;
+  mr: 2;
+}
+
+.main-app {
+  text-align: center;
+  margin: 20px;
+}
+
+.cta-button {
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  min-width: 250px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.connect-wallet-button {
+  background: rgb(32, 129, 226);
+}
+
+.mint-nft-button {
+  background: rgb(255, 0, 0);
+}
