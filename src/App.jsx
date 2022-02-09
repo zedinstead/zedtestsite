@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import Home from './pages/Home.jsx';
 import LibraryProject from './pages/LibraryProject.jsx';
@@ -38,7 +38,21 @@ function App() {
   const secondTokenBalance = useTokenBalance(PUNK, account)
   const [secondTokenState, setSecondTokenState] = useState();
 
+  useEffect(() => {
+    async function getInformation() {
+      const { firstTokenState } = await getFirstTokenState();
+      setFirstTokenState(firstTokenState);
+    }
+    getInformation()
+  }, [])
 
+  function getFirstTokenState() {
+    if (firstTokenBalance >= 1) {
+      setFirstTokenState(firstTokenState[0]);
+    } else {
+      setFirstTokenState("");
+    }
+  }
 
   return (
     <DAppProvider config={config}>

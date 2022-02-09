@@ -1,10 +1,9 @@
-import React from 'react';
+import React, { useContext, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavLink } from "react-router-dom";
 import "../custom.css";
 import ConnectToWalletButton from './ConnectToWalletButton';
 import { useEthers } from '@usedapp/core';
-
 
 
 const Navbar = () => {
@@ -34,6 +33,7 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/contact">contact</NavLink>
                             </li>
+
 
                             <li className="nav-item">
                                 {account ? <button> {account && `${account.slice(0, 6)}...${account.slice(
