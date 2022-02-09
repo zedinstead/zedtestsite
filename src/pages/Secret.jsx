@@ -21,6 +21,9 @@ const Secret = () => {
     
     return (
         <div className="About">
+            {account ? 
+            <div>
+             {firstTokenBalance >= 0.000000000000000001 ?
         <div class="container">
             <div className="contain1">
                 <div class="row align-items-center my-5">
@@ -38,6 +41,9 @@ const Secret = () => {
                 </div>
             </div>
         </div>
+         : ''}
+         </div>
+         : ''}
         </div>
     );
 }
