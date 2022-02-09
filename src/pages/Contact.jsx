@@ -2,7 +2,7 @@ import React from 'react';
 import "../custom.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Contact() {
+const Contact = () => {
     
     return (
         <div className="About">
@@ -15,9 +15,9 @@ function Contact() {
                     <div class="col-lg-5">
                         <br></br>
                         
-                        <h1 class="font-weight-light"><b>Reach me by carrier pigeon or Western Union Telegram</b></h1>
+                        <h1 class="font-weight-light"><b>Title</b></h1>
                         <div><br></br></div>
-                        <p>You can also reach me by email, ethmail, twitter, reddit, and discord.</p>
+                        <p>Lorem Ipsum</p>
                     
                     </div>
                 </div>

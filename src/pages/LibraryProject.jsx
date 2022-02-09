@@ -2,7 +2,7 @@ import React from 'react';
 import "../custom.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function LibraryProject() {
+const LibraryProject = () => {
     
     return (
         <div className="About">
