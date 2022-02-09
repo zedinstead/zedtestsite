@@ -1,13 +1,27 @@
-import React, { useContext, useState } from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavLink } from "react-router-dom";
 import "../custom.css";
 import ConnectToWalletButton from './ConnectToWalletButton';
-import { useEthers } from '@usedapp/core';
+import { useEthers, useTokenBalance } from '@usedapp/core';
 
+  //FIRST TOKEN COLLECTION
+  //Mainnet NFT 1
+  const YETI = '0x3F0785095A660fEe131eEbcD5aa243e529C21786'
+
+  //SECOND TOKEN COLLECTION
+  //Mainnet NFT 2
+const PUNK = '0x3E86e26915403ae0E1CFf7E7b23377b3a30104A0'
 
 const Navbar = () => {
     const { account } = useEthers()
+
+    const firstTokenBalance = useTokenBalance(YETI, account)
+
+  
+    const secondTokenBalance = useTokenBalance(PUNK, account)
+
+  
 
     return (
         <div>
@@ -33,6 +47,18 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/contact">contact</NavLink>
                             </li>
+
+
+
+                          
+                    <li className="nav-item">
+
+                    {firstTokenBalance >= 0.000000000000000001 ?
+
+                    <NavLink className="nav-link" to="/secret">secret</NavLink>
+
+                    : ''}
+                    </li>
 
 
                             <li className="nav-item">
