@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "../custom.css";
-import logo from '../logo.svg';
+
+import cat1 from '../images/cat1.png';
+import cat2 from '../images/cat2.png';
+
 import { useEthers, useEtherBalance, useTokenBalance } from '@usedapp/core';
-import { formatEther, formatUnits } from '@ethersproject/units'
+
 
 const DAI = '0x6b175474e89094c44da98b954eedeac495271d0f'
 
@@ -10,35 +13,29 @@ const Home = () => {
     const { account } = useEthers()
     const etherBalance = useEtherBalance(account)
     const tokenBalance = useTokenBalance(DAI, account)
+    const [over, setOver] = useState(false);
 
     return (
         <div className="home">
-        <div class="container">
             <br></br>
             <center>
-            <img src={logo} className="App-logo" alt="logo" />
-            
+                <div
+                 onMouseOver={() => setOver(true)}
+                onMouseOut={() => setOver(false)}
+                > 
+                    <img
+                        src={over ? cat2 : cat1}
+                    />
+                </div>  
             </center>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-            </a>
-          Learn React
-     
-        </div>
+
         <div class="container">
             <center>
                 <div className="contain1">
                     <div class="col-lg-5">
-                        
-                        <p>the </p>
-                        <p>lorem ipsum</p>
-                        <p>{etherBalance && <p>Balance: {formatEther(etherBalance)}</p>}</p>
-                        <p>{tokenBalance && <p>Balance: {formatUnits(tokenBalance, 18)}</p>}</p>
-                        
+                    <h1 class="font-weight-dark"></h1>
+                        <p>the power of art </p>
+                        <p>can change the world</p>
                     </div>
                 </div>
             </center>

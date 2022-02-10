@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+
+.HomeImage {
+  background: "./images/cat1.png";
+}
+.HomeImage:hover {
+  background: "./images/cat2.png";
+}

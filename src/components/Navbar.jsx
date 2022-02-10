@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import "../custom.css";
 import ConnectToWalletButton from './ConnectToWalletButton';
 import { useEthers, useTokenBalance } from '@usedapp/core';
+import styled from 'styled-components'
 
   //FIRST TOKEN COLLECTION
   //Mainnet NFT 1
@@ -76,5 +77,7 @@ const Navbar = () => {
         </div>
     )
 }
+
+
 
 export default Navbar;

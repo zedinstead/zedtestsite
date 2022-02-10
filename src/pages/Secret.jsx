@@ -5,7 +5,7 @@ import { useEthers, useTokenBalance } from '@usedapp/core';
 
   //FIRST TOKEN COLLECTION
   //Mainnet NFT 1
-  const YETI = '0x3F0785095A660fEe131eEbcD5aa243e529C21786'
+const YETI = '0x3F0785095A660fEe131eEbcD5aa243e529C21786'
 
   //SECOND TOKEN COLLECTION
   //Mainnet NFT 2
