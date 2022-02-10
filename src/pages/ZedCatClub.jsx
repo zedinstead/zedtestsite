@@ -11,7 +11,7 @@ const YETI = '0x3F0785095A660fEe131eEbcD5aa243e529C21786'
   //Mainnet NFT 2
 const PUNK = '0x3E86e26915403ae0E1CFf7E7b23377b3a30104A0'
 
-const Secret = () => {
+const ZedCatClub = () => {
     const { account } = useEthers()
 
     const firstTokenBalance = useTokenBalance(YETI, account)
@@ -33,9 +33,9 @@ const Secret = () => {
                     <div class="col-lg-5">
                         <br></br>
                         
-                        <h1 class="font-weight-light"><b>Top Secret</b></h1>
+                        <h1 class="font-weight-light"><b>Zed Cat Club</b></h1>
                         <div><br></br></div>
-                        <p>Eyes only</p>
+                        <p>I am not a cat, but I think they're pretty neat.</p>
                     
                     </div>
                 </div>
@@ -48,4 +48,4 @@ const Secret = () => {
     );
 }
 
-export default Secret;
+export default ZedCatClub;

@@ -1,9 +1,11 @@
 import './App.css';
 import Home from './pages/Home.jsx';
+import ZedCats from './pages/ZedCats.jsx';
 import LibraryProject from './pages/LibraryProject.jsx';
 import NFTCollections from './pages/NFTCollections.jsx';
 import Contact from './pages/Contact.jsx';
-import Secret from './pages/Secret.jsx';
+import ZedCatClub from './pages/ZedCatClub.jsx';
+import Inspiration from './pages/Inspiration.jsx';
 
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
@@ -31,6 +33,9 @@ function App() {
       <Router>
         <Navbar />
          <Switch>
+            <Route path="/zedcats">
+              <ZedCats />
+            </Route>
             <Route path="/libraryproject">
               <LibraryProject />
             </Route>
@@ -40,8 +45,11 @@ function App() {
             <Route path="/contact">
               <Contact />
             </Route>
-            <Route path="/secret">
-              <Secret />
+            <Route path="/inspiration">
+              <Inspiration />
+            </Route>
+            <Route path="/zedcatclub">
+              <ZedCatClub />
             </Route>
             <Route path="/">
               <Home />

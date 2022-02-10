@@ -1,17 +1,9 @@
 import React from 'react';
 import "../custom.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useEthers, useTokenBalance } from '@usedapp/core'; 
-import { formatEther, formatUnits } from '@ethersproject/units'
-
-  //FIRST TOKEN COLLECTION
-  //Mainnet NFT 1
-
-const YETI = '0x3F0785095A660fEe131eEbcD5aa243e529C21786'
 
 const Contact = () => {
-    const { account } = useEthers()
-    const firstTokenBalance = useTokenBalance(YETI, account)
+
     
     return (
         <div className="About">
@@ -27,7 +19,7 @@ const Contact = () => {
                         <h1 class="font-weight-light"><b>Title</b></h1>
                         <div><br></br></div>
                         <p>Lorem Ipsum</p>
-                        <p>{firstTokenBalance && <p>Balance: {formatUnits(firstTokenBalance)}</p>}</p>
+            
 
                     
                     </div>

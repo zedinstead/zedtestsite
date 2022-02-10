@@ -1,5 +1,5 @@
 footer {
-  background-color: #fdb82b;
+  background-color: #fcb935;
 }
 
 .container-custom {
@@ -16,11 +16,19 @@ body {
   font-style: Arial;
 }
 
+.containText {
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
 .contain2 {
   color: black;
-  background-color: #fdb82b;
+  background-color: #f1a918;
   padding-left: 25px;
   padding-right: 25px;
+}
+.contain3 {
+  align-items: center;
 }
 
 a:link {
@@ -35,24 +43,12 @@ a:hover {
   font-style: Arial;
 }
 
-.contain9 {
-  color: #1a202c;
-  background-color: #1a202c;
-  align-items: center;
-  padding-top: 40px;
-  padding-bottom: 50px;
-}
-.image_off,
-#home:hover .image_on {
-  display: none;
-}
-.image_on,
-#home:hover .image_off {
-  display: block;
-}
 
-.li {
-  padding-right: 8px;
+
+
+
+.navbar li {
+  padding-right: 17px;
 }
 
 .navbar-custom {
@@ -110,7 +106,4 @@ a:hover {
 .mint-nft-button {
   background: rgb(255, 0, 0);
 }
-
-
-
 
