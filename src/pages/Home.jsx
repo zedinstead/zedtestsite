@@ -19,13 +19,11 @@ const Home = () => {
         <div className="home">
             <br></br>
             <center>
-                <div
-                 onMouseOver={() => setOver(true)}
-                onMouseOut={() => setOver(false)}
-                > 
+                <div>
                     <img
                         src={over ? cat2 : cat1}
-                    />
+                        onMouseOver={() => setOver(true)}
+                        onMouseOut={() => setOver(false)}/>
                 </div>  
             </center>
 

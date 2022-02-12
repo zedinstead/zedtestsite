@@ -29,7 +29,7 @@ function App() {
 
 
   return (
-    <DAppProvider config={config}>
+    <DAppProvider config={{}}>
       <Router>
         <Navbar />
          <Switch>
