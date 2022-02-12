@@ -79,7 +79,7 @@ function ConnectMintButton() {
 
   const mintNftButton = () => {
     return (
-      <button onClick={mintNftHandler} className='cta-button mint-nft-button'>
+      <button onClick={mintNftHandler} className='mint-nft-button'>
         Mint NFT
       </button>
     )

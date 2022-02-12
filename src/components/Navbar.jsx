@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavLink } from "react-router-dom";
 import "../custom.css";
 import ConnectToWalletButton from './ConnectToWalletButton';
-import { useEthers, useTokenBalance } from '@usedapp/core';
+import { useEthers, useTokenBalance, deactivate } from '@usedapp/core';
 import styled from 'styled-components';
 
   //FIRST TOKEN COLLECTION
@@ -17,13 +17,16 @@ import styled from 'styled-components';
 const PUNK = '0x3E86e26915403ae0E1CFf7E7b23377b3a30104A0'
 
 const Navbar = () => {
-    const { account } = useEthers()
+    const { account, deactivate } = useEthers()
 
     const firstTokenBalance = useTokenBalance(YETI, account)
 
   
     const secondTokenBalance = useTokenBalance(PUNK, account)
-
+    
+    function handleDeactivateAccount() {
+        deactivate()
+    }
   
 
     return (
@@ -79,7 +82,7 @@ const Navbar = () => {
 
                             <li className="nav-item">
                                
-                                {account ? <ConnectButton> {account && `${account.slice(0, 6)}...${account.slice(
+                                {account ? <ConnectButton onClick={() => handleDeactivateAccount()}> {account && `${account.slice(0, 6)}...${account.slice(
                             account.length - 4,
                             account.length
                         )}`} </ConnectButton>

@@ -5,13 +5,19 @@ import ConnectMintButton from "../components/ConnectMintButton";
 import ConnectMintButton2 from "../components/ConnectMintButton2";
 import { useEthers } from '@usedapp/core';
 import Collections from "../images/Collections.png";
+import Periodicals from "../images/Periodicals.png";
+import DueDiligence from "../images/DueDiligence.png";
+import ZedCat1 from "../images/ZedCat1.png";
 
 
 const NFTCollections = () => {
     const { account } = useEthers();
+    const style1 = {
+        fontweight:'bold'
+    };
     
     return (
-        <div className="About">
+        <div className="NFTCollections">
             <div class="container">
                 <div className="contain1">
                     <div class="row align-items-center my-5">
@@ -42,11 +48,11 @@ const NFTCollections = () => {
                         <div><br></br></div>
                         
                         <p>
-                            The SuperStonk Periodicals Collection is now available for minting. Owners have access to the 'Inspiration Zed' page and will be eligible for future airdrops. </p>
-                            <p>Cost: .069 eth</p>
-                            <p>EtherScan: 🚀</p>
-                            <p>OpenSea: ⛵</p> 
-                        <p><br></br></p>
+                            The SuperStonk Periodicals Collection is now available for minting. Owners will be eligible for future airdrops and currently have access to the 'Insteadspiration' page, which includes an inside look at the artwork. The space also includes an exhibition space currently showcasing a never-before-seen meme by u/ButtFarm69.</p>
+                            <p><strong>Cost:</strong> 0.069 eth &nbsp; &nbsp; &nbsp; &nbsp; <strong>Items:</strong> 25 NFTs</p>
+                            <p><strong>EtherScan:</strong> 🚀</p>
+                            <p><strong>OpenSea:</strong> ⛵</p> 
+                       
                         <p>
                   
                         {account ? <ConnectMintButton>
@@ -56,7 +62,15 @@ const NFTCollections = () => {
                         </p>
                         </center>
                     </div>
+                    <div class="col-lg-6">
+                            <img
+                                class="img-fluid rounded mb-4 mb-lg-0"
+                                src={Periodicals}
+                                alt=""
+                            />
+                        </div>
                     </div>
+                    
                 </div>
             </div>
             <div class="container">
@@ -78,10 +92,10 @@ const NFTCollections = () => {
                         
                         <p>
                             The Zed Cat Collection is now available for minting. This collection acts as an access token for all ongoing and future zedinstead projects and are represented by a randomly generated cat. Owners have exclusive access to the Zed Cat Club, alongside all other zedinstead gated pages.</p>
-                            <p>Cost: .01 eth</p>
-                            <p>EtherScan: 🚀</p>
-                            <p>OpenSea: ⛵</p> 
-                        <p><br></br></p>
+                            <p><strong>Cost:</strong> 0.01 eth &nbsp; &nbsp; &nbsp; &nbsp; <strong>Items:</strong> 420 NFTs</p>
+                            <p><strong>EtherScan:</strong> 🚀</p>
+                            <p><strong>OpenSea:</strong> ⛵</p> 
+                        
                         <p>
                         {account ? <ConnectMintButton2>
                 MINT
@@ -89,16 +103,23 @@ const NFTCollections = () => {
             
             </p>
             </center>
+            </div>
+            <div class="col-lg-6">
+                            <img
+                                class="img-fluid rounded mb-4 mb-lg-0"
+                                src={ZedCat1}
+                                alt=""
+                            />
                         </div>
-                    </div>
-                </div>
+            </div>
+            </div>
             </div>
             <div class="container">
                 <div className="contain1">
                     <div class="row align-items-center my-5">
                         <div class="col-lg-5">
-                            <p><br></br></p>
-                            <p><br></br></p>
+                            <p></p>
+                           
                         </div>
                     </div>
                 </div>
@@ -114,16 +135,21 @@ const NFTCollections = () => {
                         
                         <p>
                             The SuperStonk Due Diligence Collection is not yet available for minting. </p>
-                            <p>Cost: .01 eth</p>
-                            <p>EtherScan: Not Available</p>
-                            <p>OpenSea: Not Available</p> 
+                            <p><strong>Cost:</strong> 0.01 eth &nbsp; &nbsp; &nbsp; &nbsp; <strong>Items:</strong> undecided</p>
+                            <p><strong>EtherScan:</strong> Not Available</p>
+                            <p><strong>OpenSea:</strong> Not Available</p> 
                         <p><br></br></p>
-                        <p>
-                  
 
-                        </p>
                         </center>
                     </div>
+                    
+                    <div class="col-lg-6">
+                            <img
+                                class="img-fluid rounded mb-4 mb-lg-0"
+                                src={DueDiligence}
+                                alt=""
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -131,7 +157,6 @@ const NFTCollections = () => {
                 <div className="contain1">
                     <div class="row align-items-center my-5">
                         <div class="col-lg-5">
-                            <p><br></br></p>
                             <p><br></br></p>
                         </div>
                     </div>
