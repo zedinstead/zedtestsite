@@ -17,6 +17,7 @@ const Home = () => {
 
     return (
         <div className="home">
+          
             <br></br>
             <center>
                 <div>
@@ -26,6 +27,7 @@ const Home = () => {
                         onMouseOut={() => setOver(false)}/>
                 </div>  
             </center>
+        
 
         <div class="container">
             <center>

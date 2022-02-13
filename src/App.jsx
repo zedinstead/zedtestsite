@@ -17,7 +17,7 @@ import {
   Route,
 } from "react-router-dom";
 
-const config: Config = {
+const config: config = {
   readOnlyChainId: Mainnet.chainId,
   readOnlyUrls: { [Mainnet.chainId]: 'https://eth-mainnet.alchemyapi.io/v2/NHlccCpTr-XbYJyCNpVaRTDhkuFMlQeC',},
   networks: [Mainnet],
@@ -29,7 +29,7 @@ function App() {
 
 
   return (
-    <DAppProvider config={{}}>
+    <DAppProvider config={{config}}>
       <Router>
         <Navbar />
          <Switch>

@@ -52,7 +52,7 @@ const LibraryProject = () => {
                         <h1 class="font-weight-bold"><b>PDF Library Hosted on IPFS and Linked in Metadata of each NFT</b></h1>
                         <div><br></br></div>
                         <p>
-                            To ensure the library's continued existence and availability, I've taken it to the blockchain. The library is now being hosted on IPFS and will be linked in the metadata of each NFT in the upcoming collection. Currently the Periodicals Collection is available for minting <Link to="/NFTCollections">here</Link>. Explore the portal below to view the PDF's directly from IPFS!</p>
+                        To ensure the library's continued existence and availability, I've created an easy to use portal to view the library that is being hosted on IPFS and will be linked in the metadata of each NFT in the upcoming collection. Currently the Periodicals Collection is available for minting <Link to="/NFTCollections">here</Link>. Explore the portal below and check out the <a href="https://github.com/zedinstead/GME_PDF_LIBRARY_IPFS_PORTAL.git">github repository</a> to add it to your own site!</p>
                         <p><br></br></p>
                     </div>    
                     </div>
@@ -77,6 +77,30 @@ const LibraryProject = () => {
                         <div><br></br></div>
                         <center>
                         <DropDown />   
+                        </center>
+                    <div><br></br></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div className="contain1">
+                <div class="row align-items-center my-5">
+                    <div class="col-lg-5">
+                        <p><br></br></p>
+                        <p><br></br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div className="contain2">
+                <div class="row align-items-center">
+                    
+                        <p><br></br></p>
+                        <h1 class="font-weight-bold"><b>More Resources</b></h1>
+                        <div><br></br></div>
+                        <center>
+                          
                         </center>
                     <div><br></br></div>
                 </div>

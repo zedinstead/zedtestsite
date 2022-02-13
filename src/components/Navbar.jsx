@@ -42,12 +42,14 @@ const Navbar = () => {
                     <div>
                         <ul className="navbar-nav ml-auto">
 
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/zedcats">zed cats</NavLink>
-                            </li>
+                           
                         
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/libraryproject">library project</NavLink>
+                            </li>
+
+                            <li className="nav-item">
+                                <NavLink className="nav-link" to="/zedcats">zed cats</NavLink>
                             </li>
 
                             <li className="nav-item">
@@ -74,7 +76,7 @@ const Navbar = () => {
 
                     {secondTokenBalance >= 0.000000000000000001 ?
 
-                    <NavLink className="nav-link" to="/inspiration">inspiration zed</NavLink>
+                    <NavLink className="nav-link" to="/inspiration">inspiration gallery</NavLink>
 
                     : ''}
                     </li>

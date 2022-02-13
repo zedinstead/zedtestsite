@@ -48,7 +48,7 @@ const NFTCollections = () => {
                         <div><br></br></div>
                         
                         <p>
-                            The SuperStonk Periodicals Collection is now available for minting. Owners will be eligible for future airdrops and currently have access to the 'Insteadspiration' page, which includes an inside look at the artwork. The space also includes an exhibition space currently showcasing a never-before-seen meme by u/ButtFarm69.</p>
+                            The SuperStonk Periodicals Collection is now available for minting. Owners will be eligible for future airdrops and currently have access to the 'Insteadspiration' page, which includes an inside look at the artwork. The spage also includes an exhibition space currently showcasing a never-before-seen meme by u/ButtFarm69.</p>
                             <p><strong>Cost:</strong> 0.069 eth &nbsp; &nbsp; &nbsp; &nbsp; <strong>Items:</strong> 25 NFTs</p>
                             <p><strong>EtherScan:</strong> 🚀</p>
                             <p><strong>OpenSea:</strong> ⛵</p> 
