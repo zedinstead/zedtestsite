@@ -7,6 +7,8 @@ import { Link } from 'react-router-dom';
 import Library from "../images/Library.png";
 import ApeHistorian from "../images/resources/ApeHistorian.png";
 import SuperStonk from "../images/resources/SuperStonk.png";
+import GMEdd from "../images/resources/GMEdd.png";
+import GameStop from "../images/resources/GameStop.png";
 
 const LibraryProject = () => {
     
@@ -97,8 +99,9 @@ const LibraryProject = () => {
                 <div class="row align-items-center">
                     
                         <p><br></br></p>
-                        <h1 class="font-weight-bold"><b>More Resources</b></h1>
-                        <div><br></br></div>
+                        <center>
+                        <h1 class="font-weight-bold"><b>More GME Resources</b></h1>
+                        </center>
                         
                         <div class="row align-items-center my-5">
                     <div class="col-lg-3">
@@ -125,13 +128,23 @@ const LibraryProject = () => {
                         </div>
                     <div class="col-lg-3">
                         <center>
+                        <img
+                            class="img-fluid rounded mb-4 mb-lg-0"
+                            src={GMEdd}
+                            alt=""
+                        />
                         <p>GMEdd.com</p>
 
                         </center>
                         </div>
                         <div class="col-lg-3">
                         <center>
-                        <p>SuperStonk Subreddit</p>
+                        <img
+                            class="img-fluid rounded mb-4 mb-lg-0"
+                            src={GameStop}
+                            alt=""
+                        />
+                        <p>Investor Relations</p>
 
                         </center>
                         </div>

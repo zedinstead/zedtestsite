@@ -32,6 +32,7 @@ class DropDown extends React.Component {
               <option value="https://ipfs.io/ipfs/QmRSqHYAZbLuE1ZsRgmnxrg1oXMHzNdULFF2283efNirXP?filename=ACastleOfGlass.pdf">3for100Specials - 07-14-21 - A Castle of Glass: Game On, Anon</option>
               <option value="https://ipfs.io/ipfs/QmZaifCUPSz4DGXJqdepXARQ7iHN389Ykk8oTmKcEcB5oZ?filename=TheGlassCastle.pdf">3for100Specials - 09-08-21 - The Glass Castle</option>
               <option value="https://ipfs.io/ipfs/QmYuaUjfpYTSmod5r5Q8Uy2Jbzo96LFx5taTw2tsEuiU8p?filename=CollectedWorksOfAlexanderHood.pdf">AlexanderHood - 04-18-21 - Collected Works of u/AlexanderHood</option>
+              <option value="https://ipfs.io/ipfs/QmQUsWJ2ee34NL2BjwdCzfnXq59urcLr8d5cYyfb7zqeQC?filename=TheFedAnd10.8T.pdf">ammoprofit - 02-08-22 - The Fed and $10.8T</option>
               <option value="https://ipfs.io/ipfs/QmWBZKxeZHoeRCEyXNqtVLJ4YGViw9Ntc8EVHTr9Ktumc9?filename=MysteryOfTheNegativeBetaSolved.pdf">animasoul - 03-25-21 - Mystery of the Negative Beta Solved</option>
               <option value="https://ipfs.io/ipfs/QmNnPHFaB7ksksgPxrcJKNE59j86i9NoCgSzZPBQ1UCnsL?filename=DDonSears.pdf">AnnihilationGod - 09-05-21 - DD on Sears</option>
               <option value="https://ipfs.io/ipfs/QmTqW7oXwVzrHvCtU1E5oKv4aAGYXMQx3RJSqTnYvd9Ctw?filename=CitadelHasNoClothes.pdf">atobitt - 03-13-21 - Citadel Has No Clothes</option>
@@ -61,6 +62,7 @@ class DropDown extends React.Component {
               <option value="https://ipfs.io/ipfs/QmdeuzskrA9g28h1YXVLnNLpQLsMh1oZQXawzFVUeZiSxN?filename=SwappingRegForOffshoreRisk.pdf">broccaaa - 08-26-21 - Swapping Regulations for Offshore Risk</option>
               <option value="https://ipfs.io/ipfs/QmeBiDVpwPaq858SQrtDorBkp6W1Yu7eP9Mwqz7aELpa7q?filename=SteviePortraitofaHedgeFundDouchebag.pdf">broviet_v2 - 07-01-21 - Stevie: Portrait of a Hedge Fund Douchebag</option>
               <option value="https://ipfs.io/ipfs/Qmec4Bn717HJCpWMtmX65VPU98RXr3jP7wH5F9pYzQvoQT?filename=TheOriginOfApe.pdf">ButtFarm69 - 12-2-21 - The Origin of Ape: A Historical DD</option>
+              <option value="https://ipfs.io/ipfs/QmSdhuTR8Ke2kMBn345EmdbKPrKYdFtnChKUPoMVeU74kt?filename=SuperStonkMOASSFAQ.pdf">Bye_Triangle - 03-13-21 - SuperStonk MOASS FAQ</option>
               <option value="https://ipfs.io/ipfs/QmWi2VtYzqz7jhA9PoSEY9xfoXrKEM1F8KbczSNNtY7LP1?filename=WhyAreWeTradingSideways.pdf">c-digs - 04-05-21 - Why Are We Trading Sideways?</option>
               <option value="https://ipfs.io/ipfs/QmP5fcgBYCsPuTGxU1XRpuyWrq2cZUCZ1DRMKmSHBhsAzb?filename=TheLongCon.pdf">con101smd - 06-22-21 - The Long Con: Markets are Frothing With Liquidity</option>
               <option value="https://ipfs.io/ipfs/QmYohGtAvPnFEGE2uoWMTaawHPwvumBACXAtT2a3QfgA8k?filename=ThroughTheLookingGlass.pdf">con101smd - 06-28-21 - Through the Looking Glass</option>
@@ -215,7 +217,8 @@ class DropDown extends React.Component {
               <option value="https://ipfs.io/ipfs/Qmf4SBepBE1qfHEtMBSLyyJjuS9qsH88qbhiiMJqUDBe7C?filename=SuperStonkGeographicSeptember.pdf">zedinstead - 09-27-21 - SuperStonk Geographic September</option>
 
               
-              <option value="">zedin</option>
+              
+              
 
             </select>
           </label>
