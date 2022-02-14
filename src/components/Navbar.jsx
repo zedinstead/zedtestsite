@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavLink } from "react-router-dom";
 import "../custom.css";
 import ConnectToWalletButton from './ConnectToWalletButton';
-import { useEthers, useTokenBalance, deactivate } from '@usedapp/core';
+import { useEthers, useTokenBalance } from '@usedapp/core';
 import styled from 'styled-components';
 
   //FIRST TOKEN COLLECTION

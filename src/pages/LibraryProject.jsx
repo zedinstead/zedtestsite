@@ -21,7 +21,7 @@ const LibraryProject = () => {
                     </div>
                     <div class="col-lg-5">
                         <br></br>
-                        <h1 class="font-weight-light"><b>The SuperStonk Library of DD, Art Books, and Periodicals</b></h1>
+                        <h1 class="font-weight-light"><b>📚 The SuperStonk Library of DD, Art Books, and Periodicals 📚</b></h1>
                         <div><br></br></div>
                         <p>The Library Project has been my attempt to visualize the weight of due diligence published by retail investors on the subject of GameStop and to encourage others to conduct peer-reviewed research in an effort to create a more fair and transparent market. I also created it because I like the stock and I want everyone else to know how much I like the stock too.</p>
                     </div>
@@ -31,10 +31,10 @@ const LibraryProject = () => {
         <div class="container">
             <div className="contain2">
                 <div class="row align-items-center my-5">
-                    <div class="col-lg-5">
+                    <div class="col-lg-6">
                         <div class="containText">
                         <p><br></br></p>
-                        <h1 class="font-weight-bold"><b>Interactive PDF Library Hosted by FlipHTML5</b></h1>
+                        <h1 class="font-weight-bold"><b>Interactive PDF Library Hosted by FlipHTML5 </b></h1>
                         <div><br></br></div>
                         <p>
                             The SuperStonk Library of DD, Art Books, and Periodicals is available for everyone to use in an easily accessible format and brought to life in a truly interactive experience. Users can enjoy the library advertisement free and there are multiple ways to get there!</p>
@@ -43,13 +43,11 @@ const LibraryProject = () => {
                         <p><br></br></p>
                         </div>
                     </div>
-                    <div class="col-lg-2">
-
-                    </div>
-                    <div class="col-lg-5">
+                    
+                    <div class="col-lg-6">
                     <div class="containText">
                     <p><br></br></p>
-                        <h1 class="font-weight-bold"><b>PDF Library Hosted on IPFS and Linked in Metadata of each NFT</b></h1>
+                        <h1 class="font-weight-bold"><b>PDF Library Hosted on IPFS & Linked in NFT's Metadata </b></h1>
                         <div><br></br></div>
                         <p>
                         To ensure the library's continued existence and availability, I've created an easy to use portal to view the library that is being hosted on IPFS and will be linked in the metadata of each NFT in the upcoming collection. Currently the Periodicals Collection is available for minting <Link to="/NFTCollections">here</Link>. Explore the portal below and check out the <a href="https://github.com/zedinstead/GME_PDF_LIBRARY_IPFS_PORTAL.git">github repository</a> to add it to your own site!</p>

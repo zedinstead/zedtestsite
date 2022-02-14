@@ -7,7 +7,7 @@ import { useEthers } from '@usedapp/core';
 import Collections from "../images/Collections.png";
 import Periodicals from "../images/Periodicals.png";
 import DueDiligence from "../images/DueDiligence.png";
-import ZedCat1 from "../images/ZedCat1.png";
+import ZedCat1 from "../images/zedcats/ZedCat1.png";
 
 
 const NFTCollections = () => {
@@ -29,7 +29,7 @@ const NFTCollections = () => {
                             />
                         </div>
                         <div class="col-lg-5">
-                            <h1 class="font-weight-bold"><b>NFT Collections</b></h1>
+                            <h1 class="font-weight-bold"><b>🎴 NFT Collections 🎴</b></h1>
                             <div><br></br></div>
                             <p>
                                 The Library Project is being broken into two sets of NFTs: the Due Diligence Collection and the Periodicals Collection. The original PDFs are stored in metadata and hosted on IPFS alongside the artwork. Only the Periodicals Collection is available for minting. The Due Diligence Collection will be available once layer 2 minting makes it possible for all of the authors to be gifted a copy of their work, while the others will be made available to the public.

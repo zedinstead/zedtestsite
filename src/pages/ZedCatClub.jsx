@@ -2,48 +2,64 @@ import React from 'react';
 import "../custom.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEthers, useTokenBalance } from '@usedapp/core';
+import ZedCat5 from "../images/zedcats/ZedCat5.png";
+import ZedCat6 from "../images/zedcats/ZedCat6.png";
 
   //FIRST TOKEN COLLECTION
   //Mainnet NFT 1
-const YETI = '0x3F0785095A660fEe131eEbcD5aa243e529C21786'
-
-  //SECOND TOKEN COLLECTION
-  //Mainnet NFT 2
-const PUNK = '0x3E86e26915403ae0E1CFf7E7b23377b3a30104A0'
+const ZEDCATNFT = '0x3F0785095A660fEe131eEbcD5aa243e529C21786'
 
 const ZedCatClub = () => {
     const { account } = useEthers()
-
-    const firstTokenBalance = useTokenBalance(YETI, account)
-
-  
-    const secondTokenBalance = useTokenBalance(PUNK, account)
+    const firstTokenBalance = useTokenBalance(ZEDCATNFT, account)
     
     return (
         <div className="About">
             {account ? 
             <div>
-             {firstTokenBalance >= 0.000000000000000001 ?
-        <div class="container">
-            <div className="contain1">
-                <div class="row align-items-center my-5">
-                    <div class="col-lg-7">
-                        
+            {firstTokenBalance >= 0.000000000000000001 ?
+                <div class="container">
+                    <div className="contain1">
+                        <div class="row align-items-center my-5">
+                            <img src={ZedCat5} />
+                        </div>
                     </div>
-                    <div class="col-lg-5">
-                        <br></br>
-                        
-                        <h1 class="font-weight-light"><b>Zed Cat Club</b></h1>
-                        <div><br></br></div>
-                        <p>I am not a cat, but I think they're pretty neat.</p>
-                    
+                    <div class="container">
+                        <div className="contain2">
+                            <div className="contain9">
+                            <div class="row align-items-center my-5">
+                                <div class="containText">
+                                    <p><br></br></p>
+                                    <center>
+                                        <h1 class="font-weight-bold"><b>😸 THE ZED CAT CLUB 😸</b></h1>
+                                    </center>
+                                    <div><br></br></div>
+                                        <p>Dear Zed Cat Club Member,</p> 
+                                            <p>If you're reading this, you've made it! And if you've come this far, maybe you're willing to come a little further. You remember the name of the town, don't you? I could use a good cat to help me get my project on wheels. I'll keep an eye out for you and the chessboard ready. Remember, hope is a good thing, maybe the best of things and no good thing ever dies. I will be hoping that this message finds you, and finds you well.</p>
+                                        <p>Your friend,</p>
+                                        <p>&nbsp; -zedinstead</p>
+                                        <center><p>|  <a href="https://discord.gg/J3cb2286Rg">Discord</a>  |</p></center>
+                                    <div class="row align-items-center my-5">
+                            <img src={ZedCat6} />
+                        </div>
+                                </div>
+                            </div>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div className="contain1">
+                            <div class="row align-items-center my-5">
+                                <div class="col-lg-5">
+                                    <p><br></br></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            : ''}
             </div>
-        </div>
-         : ''}
-         </div>
-         : ''}
+            : ''}
         </div>
     );
 }

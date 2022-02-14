@@ -44,9 +44,6 @@ a:hover {
 }
 
 
-
-
-
 .navbar li {
   padding-right: 17px;
 }
@@ -126,10 +123,8 @@ a:hover {
   }
 }
 
-.fade-in {
-  transition: opacity 1s ease;
+.contain9 {
+  margin-left: 35px;
+  margin-right: 35px;
 }
-.fade-out {
-  opacity: 0;
-  transition: opacity 1s ease;
-}
+
