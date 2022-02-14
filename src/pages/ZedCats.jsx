@@ -44,13 +44,20 @@ const ZedCats = () => {
                     <div class="col-lg-6">
                         <div class="containText">
                         <p><br></br></p>
-                        <h1 class="font-weight-bold"><b>Cat Power! Meow</b></h1>
+                        <center>
+                        <h1 class="font-weight-bold"><b>Cat Power! </b></h1>
+                        </center>
                         <div><br></br></div>
                         <p>
-                            I think cats are pretty neat. You can mint a Zed Cat <NavLink to="/nftcollections">here</NavLink>.</p>
+                            I think cats are pretty neat. Zed Cats have 5 different features: background, mountain, hill, bandana, and special. Special features include snow on the mountain, or sunshine with a cloud. There may even be a skier or a snowboarder in the distance shreding the gnar. Get yours today!</p>
                         <p></p>
-                        <center><p>|  <a href="http://gme.fyi/">GME.FYI</a>  |  <a href="http://superstonklibrary.com">SuperStonkLibrary.com</a>   |  <a href="https://fliphtml5.com/bookcase/kosyg">fliphtml5.com/bookcase/kosyg</a>  |</p></center>
-                        <p><br></br></p>
+                        <center>
+                        <p><strong>Cost:</strong> 0.01 eth &nbsp; &nbsp; &nbsp; &nbsp; <strong>Items:</strong> 420 NFTs</p>
+                            <p><strong>EtherScan:</strong> 🚀</p>
+                            <p><strong>OpenSea:</strong> ⛵</p> 
+                        
+                        <p>You can mint a Zed Cat on the <NavLink to="/nftcollections">NFT Collections page</NavLink>.</p>
+                        </center>
                        </div>
                        </div>
                    

@@ -1,9 +1,12 @@
 import React from 'react';
 import "../custom.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import library from "../images/Library.png";
 import DropDown from "../components/DropDown.jsx"
 import { Link } from 'react-router-dom';
+
+import Library from "../images/Library.png";
+import ApeHistorian from "../images/resources/ApeHistorian.png";
+import SuperStonk from "../images/resources/SuperStonk.png";
 
 const LibraryProject = () => {
     
@@ -15,7 +18,7 @@ const LibraryProject = () => {
                     <div class="col-lg-7">
                     <img
                             class="img-fluid rounded mb-4 mb-lg-0"
-                            src={library}
+                            src={Library}
                             alt=""
                         />
                     </div>
@@ -84,8 +87,7 @@ const LibraryProject = () => {
             <div className="contain1">
                 <div class="row align-items-center my-5">
                     <div class="col-lg-5">
-                        <p><br></br></p>
-                        <p><br></br></p>
+                   
                     </div>
                 </div>
             </div>
@@ -97,11 +99,45 @@ const LibraryProject = () => {
                         <p><br></br></p>
                         <h1 class="font-weight-bold"><b>More Resources</b></h1>
                         <div><br></br></div>
+                        
+                        <div class="row align-items-center my-5">
+                    <div class="col-lg-3">
                         <center>
-                          
+                        <img
+                            class="img-fluid rounded mb-4 mb-lg-0"
+                            src={SuperStonk}
+                            alt=""
+                        />
+                          <p>SuperStonk Subreddit</p>
+
                         </center>
+                        </div>
+                    <div class="col-lg-3">
+                        <center>
+                        <img
+                            class="img-fluid rounded mb-4 mb-lg-0"
+                            src={ApeHistorian}
+                            alt=""
+                        />
+                        <p>ApeHistorian.com</p>
+
+                        </center>
+                        </div>
+                    <div class="col-lg-3">
+                        <center>
+                        <p>GMEdd.com</p>
+
+                        </center>
+                        </div>
+                        <div class="col-lg-3">
+                        <center>
+                        <p>SuperStonk Subreddit</p>
+
+                        </center>
+                        </div>
                     <div><br></br></div>
                 </div>
+            </div>
             </div>
         </div>
         <div class="container">
