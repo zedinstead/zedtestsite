@@ -134,8 +134,8 @@ const NFTCollections = () => {
                         <div><br></br></div>
                         
                         <p>
-                            The SuperStonk Due Diligence Collection is not yet available for minting. </p>
-                            <p><strong>Cost:</strong> 0.01 eth &nbsp; &nbsp; &nbsp; &nbsp; <strong>Items:</strong> undecided</p>
+                            The SuperStonk Due Diligence Collection is not yet available for minting. It may possibly be minted as an ERC-1155 but that has yet to be determined. All authors will be gifted a copy of their work. This collection is on hold until GameStop's marketplace becomes available.</p>
+                            <p><strong>Cost:</strong> cheap &nbsp; &nbsp; &nbsp; &nbsp; <strong>Items:</strong> undecided</p>
                             <p><strong>EtherScan:</strong> Not Available</p>
                             <p><strong>OpenSea:</strong> Not Available</p> 
                         <p><br></br></p>
