@@ -33,7 +33,7 @@ const ZedCats = () => {
                         <br></br>
                         <h1 class="font-weight-light"><b>🐈 Zed Cat Project 🐈</b></h1>
                         <div><br></br></div>
-                        <p>I am not a cat but I think they are pretty neat, and to honor the original CryptoKitties, the first zedinstead NFT project is a collection of 420 Zed Cats, which act as a perpetual access token for all gated content across current and future projects. Each Zed Cat is randomly generated from five different features and created through a standard ERC-721 contract backed by IPFS. Most importanly, owners have access to the Zed Cat Club. Come explore the wide world of web3!</p>
+                        <p>I am not a cat but I think they are pretty neat. To honor the original CryptoKitties, the first zedinstead NFT project is a collection of 420 Zed Cats, which act as a perpetual access token for all gated content across current and future projects. Each Zed Cat is randomly generated from five different features and created through a standard ERC-721 contract backed by IPFS. Most importanly, owners have access to the Zed Cat Club. Come explore the wide world of web3!</p>
                     </div>
                 </div>
             </div>

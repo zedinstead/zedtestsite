@@ -105,46 +105,46 @@ const LibraryProject = () => {
                         
                         <div class="row align-items-center my-5">
                     <div class="col-lg-3">
-                        <center>
+                        <center><a href="https://www.reddit.com/r/Superstonk/">
                         <img
                             class="img-fluid rounded mb-4 mb-lg-0"
                             src={SuperStonk}
                             alt=""
                         />
-                          <p>SuperStonk Subreddit</p>
+                          <p>SuperStonk Subreddit</p></a>
 
                         </center>
                         </div>
                     <div class="col-lg-3">
-                        <center>
+                        <center><a href="https://www.apehistorian.com/">
                         <img
                             class="img-fluid rounded mb-4 mb-lg-0"
                             src={ApeHistorian}
                             alt=""
                         />
-                        <p>ApeHistorian.com</p>
+                        <p>ApeHistorian.com</p></a>
 
                         </center>
                         </div>
                     <div class="col-lg-3">
-                        <center>
+                        <center><a href="https://gmedd.com/">
                         <img
                             class="img-fluid rounded mb-4 mb-lg-0"
                             src={GMEdd}
                             alt=""
                         />
-                        <p>GMEdd.com</p>
+                        <p>GMEdd.com</p></a>
 
                         </center>
                         </div>
                         <div class="col-lg-3">
-                        <center>
+                        <center><a href="https://investor.gamestop.com/">
                         <img
                             class="img-fluid rounded mb-4 mb-lg-0"
                             src={GameStop}
                             alt=""
                         />
-                        <p>Investor Relations</p>
+                        <p>Investor Relations</p></a>
 
                         </center>
                         </div>
