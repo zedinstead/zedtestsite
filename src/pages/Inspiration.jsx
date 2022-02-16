@@ -65,7 +65,7 @@ const Inspiration = () => {
                         <div class="col-lg-12">
                         <div><br></br></div>
                         <center>
-                            <h1 class="font-weight-light"><b>💡 Inspriration Gallery 💡</b></h1>
+                            <h1 class="font-weight-light"><b>💡 Inspiration Gallery 💡</b></h1>
                                 <div><br></br></div>
                                 <p>Welcome to the inspiration gallery! Here you can find the side-by-side inspiration behind the work of zedinstead, as well as a place to exhibit never-before-posted art like the piece currently on loan from ButtFarm69. The space will continue to grow with the inclusion of the due diligennce inspiration section and new art will circulate to be on display.</p>
                                 </center>

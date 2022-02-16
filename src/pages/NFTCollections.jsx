@@ -95,7 +95,7 @@ const NFTCollections = () => {
                             <p><strong>Cost:</strong> 0.01 eth &nbsp; &nbsp; &nbsp; &nbsp; <strong>Items:</strong> 420 NFTs</p>
                             <p><strong>EtherScan:</strong> 🚀</p>
                             <p><strong>OpenSea:</strong> ⛵</p> 
-                        
+                            <p><br></br></p>
                         <p>
                         {account ? <ConnectMintButton2>
                 MINT
@@ -138,6 +138,7 @@ const NFTCollections = () => {
                             <p><strong>Cost:</strong> 0.01 eth &nbsp; &nbsp; &nbsp; &nbsp; <strong>Items:</strong> undecided</p>
                             <p><strong>EtherScan:</strong> Not Available</p>
                             <p><strong>OpenSea:</strong> Not Available</p> 
+                        <p><br></br></p>
                         <p><br></br></p>
 
                         </center>

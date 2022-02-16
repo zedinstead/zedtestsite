@@ -33,7 +33,7 @@ const ZedCats = () => {
                         <br></br>
                         <h1 class="font-weight-light"><b>🐈 Zed Cat Project 🐈</b></h1>
                         <div><br></br></div>
-                        <p>I am not a cat, but to honor the original CryptoKitties, the first NFT project by zedinstead are Zed Cats, which act as a perpetual access token for all gated content across current and future projects. Each Zed Cat is randomly generated from five different features and created through a standard ERC-721 contract backed by IPFS. Most importanly, owners have access to the Zed Cat Club. Come explore the wide world of web3!</p>
+                        <p>I am not a cat but I think they are pretty neat, and to honor the original CryptoKitties, the first zedinstead NFT project is a collection of 420 Zed Cats, which act as a perpetual access token for all gated content across current and future projects. Each Zed Cat is randomly generated from five different features and created through a standard ERC-721 contract backed by IPFS. Most importanly, owners have access to the Zed Cat Club. Come explore the wide world of web3!</p>
                     </div>
                 </div>
             </div>
@@ -49,10 +49,10 @@ const ZedCats = () => {
                         </center>
                         <div><br></br></div>
                         <p>
-                            I think cats are pretty neat. Zed Cats have 5 different features: background, mountain, hill, bandana, and special. Special features include snow on the mountain, or sunshine with a cloud. There may even be a skier or a snowboarder in the distance shreding the gnar. Get yours today!</p>
+                            Zed Cats have 5 different features: background, mountain, hill, bandana, and special. Special features include snow on the summit, or sunshine with a cloud. There may even be a skier or a snowboarder in the distance on the side of the mountain, or a rocket in the corner. Get yours today!</p>
                         <p></p>
                         <center>
-                        <p><strong>Cost:</strong> 0.01 eth &nbsp; &nbsp; &nbsp; &nbsp; <strong>Items:</strong> 420 NFTs</p>
+                            <p><strong>Items:</strong> 420 NFTs</p>
                             <p><strong>EtherScan:</strong> 🚀</p>
                             <p><strong>OpenSea:</strong> ⛵</p> 
                         
