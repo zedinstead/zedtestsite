@@ -4,15 +4,8 @@ import "../custom.css";
 import cat1 from '../images/cat1.png';
 import cat2 from '../images/cat2.png';
 
-import { useEthers, useEtherBalance, useTokenBalance } from '@usedapp/core';
-
-
-const DAI = '0x6b175474e89094c44da98b954eedeac495271d0f'
 
 const Home = () => {
-    const { account } = useEthers()
-    const etherBalance = useEtherBalance(account)
-    const tokenBalance = useTokenBalance(DAI, account)
     const [over, setOver] = useState(false);
 
     return (

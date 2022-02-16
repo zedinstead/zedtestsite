@@ -7,7 +7,7 @@ import ZedCat6 from "../images/zedcats/ZedCat6.png";
 
   //FIRST TOKEN COLLECTION
   //Mainnet NFT 1
-const ZEDCATNFT = '0x3F0785095A660fEe131eEbcD5aa243e529C21786'
+const ZEDCATNFT = '0x37Ad6637A835DA66dE15495aD8C7AEd397B46E24'
 
 const ZedCatClub = () => {
     const { account } = useEthers()

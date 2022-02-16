@@ -1,11 +1,11 @@
 import React, { Component, useEffect, useState, useContext } from 'react';
 import '../custom.css';
-import contract from './contracts/NFTCollectible1.json';
+import contract from './contracts/ZCAT.json';
 import { ethers } from 'ethers';
 import { useEthers } from '@usedapp/core';
 
 
-const contractAddress = "0xD3eBf96583449F2B58CC1ffA78F6a1f2C9669CA6";
+const contractAddress = "0x37Ad6637A835DA66dE15495aD8C7AEd397B46E24";
 const abi = contract.abi;
 
 function ConnectMintButton2() {

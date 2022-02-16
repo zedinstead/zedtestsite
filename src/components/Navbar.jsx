@@ -9,17 +9,17 @@ import styled from 'styled-components';
   //FIRST TOKEN COLLECTION
   //Mainnet NFT 1
   //Opens Zed Cat Club Page
-  const YETI = '0x3F0785095A660fEe131eEbcD5aa243e529C21786'
+  const ZEDCATNFT = '0x37Ad6637A835DA66dE15495aD8C7AEd397B46E24'
 
   //SECOND TOKEN COLLECTION
   //Mainnet NFT 2
   //Opens Inspiration Page
-const PUNK = '0x3E86e26915403ae0E1CFf7E7b23377b3a30104A0'
+const PUNK = '0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D'
 
 const Navbar = () => {
     const { account, deactivate } = useEthers()
 
-    const firstTokenBalance = useTokenBalance(YETI, account)
+    const firstTokenBalance = useTokenBalance(ZEDCATNFT, account)
 
   
     const secondTokenBalance = useTokenBalance(PUNK, account)
@@ -74,7 +74,7 @@ const Navbar = () => {
 
                     <li className="nav-item">
 
-                    {secondTokenBalance >= 0.000000000000000001 ?
+                    {secondTokenBalance >= 0.000000000000000001 || firstTokenBalance >= 0.000000000000000001 ?
 
                     <NavLink className="nav-link" to="/inspiration">inspiration gallery</NavLink>
 

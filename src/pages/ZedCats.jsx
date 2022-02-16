@@ -11,7 +11,7 @@ import { NavLink } from "react-router-dom";
   //FIRST TOKEN COLLECTION
   //Mainnet NFT 1
   //Opens Zed Cat Club Page
-  const ZEDCATNFT = '0x3F0785095A660fEe131eEbcD5aa243e529C21786'
+  const ZEDCATNFT = '0x37Ad6637A835DA66dE15495aD8C7AEd397B46E24'
 
 const ZedCats = () => {
     const { account } = useEthers()

@@ -110,7 +110,7 @@ class DropDown extends React.Component {
               <option value="https://ipfs.io/ipfs/QmPqBrmg1BdDHRqc5JhiurXYoW8ZXag47nddTyvtMwk3wU?filename=TheShortGameExposed.pdf">freadom6 - 10-05-21 - The Short Game Exposed</option>
               <option value="https://ipfs.io/ipfs/QmZiNQr84WfZaz9vykCJDFoDAUyvWJGtShraxZcxwUy92p?filename=CLOvierfield.pdf">freadom - 01-07-22 - CLOverfield</option>
               <option value="https://ipfs.io/ipfs/QmQ75VyF6LfMa8QTo7TXmp2nUoTJmspBpDK7p7asLAfZRq?filename=TheMotherOfAllGMESummaries.pdf">frugihoyi - 04-04-21 - The Mother Of All GME Summaries</option>
-              <option value="https://ipfs.io/ipfs/QmV3tL76yLTpjP9ciSwS22DMMhA2XFnhTJv6xhmipJ9vSq?filename=GoogleConsumerSurveyOfGMEOwnership.pdf">Get-It-Got - 06-17-21 - Google Consumer Survey of GME Ownership</option>
+              <option value="https://ipfs.io/ipfs/QmVtxgt8uhwv7dBT7DT7Sgezbs4D9rMRf68M3cBckzn1Jc?filename=GoogleConsumerSurveyofGMEOwnership.pdf">Get-It-Got - 06-17-21 - Google Consumer Survey of GME Ownership</option>
               <option value="https://ipfs.io/ipfs/QmTd1bFmQmJbSpU3B7D1DCG7fu1VdxNFctCHt2rQ3pnvSD?filename=MoreZombieCompanyTalk.pdf">Get-It-Got - 09-06-21 - More Zombie Company Talk</option>
               <option value="https://ipfs.io/ipfs/QmVuYPFnmwtjqtPhZLFf9SWLkSCHCC7JdSPGnrTKDiTyAp?filename=BankOfAmericaGameStopDD.pdf">gfountyyc - 06-04-21 - The Complete Bank of America GameStop DD</option>
               <option value="https://ipfs.io/ipfs/QmcpSELM6RHU2ccDZ7SzKWMUkst735JHWxdVC3ApS4MPwf?filename=BankOfAmericaQuarterlyUpdate.pdf">gfountyyc - 11-03-21 - Bank of America Quarterly Update</option>

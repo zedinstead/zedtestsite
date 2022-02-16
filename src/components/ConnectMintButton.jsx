@@ -80,7 +80,7 @@ function ConnectMintButton() {
   const mintNftButton = () => {
     return (
       <button onClick={mintNftHandler} className='mint-nft-button'>
-        Mint NFT
+        DO NOT PUSH - NOT AVAILABLE YET
       </button>
     )
   }
