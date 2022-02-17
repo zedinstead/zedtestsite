@@ -5,9 +5,9 @@ import ConnectMintButton from "../components/ConnectMintButton";
 import ConnectMintButton2 from "../components/ConnectMintButton2";
 import { useEthers } from '@usedapp/core';
 import Collections from "../images/Collections.png";
-import Periodicals from "../images/Periodicals.png";
-import DueDiligence from "../images/DueDiligence.png";
-import ZedCat1 from "../images/zedcats/ZedCat1.png";
+import Periodicals from "../images/Periodicals.jpg";
+import DueDiligence from "../images/DueDiligence.jpg";
+import ZedCat1 from "../images/zedcats/ZedCat1.jpg";
 
 
 const NFTCollections = () => {

@@ -4,11 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import DropDown from "../components/DropDown.jsx"
 import { Link } from 'react-router-dom';
 
-import Library from "../images/Library.png";
-import ApeHistorian from "../images/resources/ApeHistorian.png";
-import SuperStonk from "../images/resources/SuperStonk.png";
-import GMEdd from "../images/resources/GMEdd.png";
-import GameStop from "../images/resources/GameStop.png";
+import Library from "../images/Library.jpg";
+import ApeHistorian from "../images/resources/ApeHistorian.jpg";
+import SuperStonk from "../images/resources/SuperStonk.jpg";
+import GMEdd from "../images/resources/GMEdd.jpg";
+import GameStop from "../images/resources/GameStop.jpg";
 
 const LibraryProject = () => {
     

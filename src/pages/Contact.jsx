@@ -1,7 +1,7 @@
 import React from 'react';
 import "./CustomContact.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Phones from "../images/Phones.png";
+import Phones from "../images/Phones.jpg";
 
 const Contact = () => {
 
@@ -33,8 +33,8 @@ const Contact = () => {
                            
                             </div>
                             <div class="col-lg-5">
-                            <p><a href = "mailto: zedinstead1@gmail.com" target="_blank">📬 Email 2</a></p>
                             <p><a href = "mailto: zedinstead1@outlook.com" target="_blank">📧 Email 1</a></p>
+                            <p><a href = "mailto: zedinstead1@gmail.com" target="_blank">📬 Email 2</a></p>
                             <p><a href = "https://discordapp.com/users/zedinstead#0687" target="_blank">⌨️ Discord</a></p>
                             
                             </div>

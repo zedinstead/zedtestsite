@@ -2,8 +2,8 @@ import React from 'react';
 import "../custom.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEthers, useTokenBalance } from '@usedapp/core';
-import ZedCat5 from "../images/zedcats/ZedCat5.png";
-import ZedCat6 from "../images/zedcats/ZedCat6.png";
+import ZedCat5 from "../images/zedcats/ZedCat5.jpg";
+import ZedCat6 from "../images/zedcats/ZedCat6.jpg";
 
   //FIRST TOKEN COLLECTION
   //Mainnet NFT 1

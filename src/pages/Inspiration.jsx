@@ -2,31 +2,32 @@ import React, { useState } from 'react';
 import "../custom.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEthers, useTokenBalance } from '@usedapp/core';
-import Inspiration1 from "../images/inspiration/1.png";
-import Inspiration2 from "../images/inspiration/2.png";
-import Inspiration3 from "../images/inspiration/3.png";
-import Inspiration4 from "../images/inspiration/4.png";
-import Inspiration5 from "../images/inspiration/5.png";
-import Inspiration6 from "../images/inspiration/6.png";
-import Inspiration7 from "../images/inspiration/7.png";
-import Inspiration8 from "../images/inspiration/8.png";
-import Inspiration9 from "../images/inspiration/9.png";
-import Inspiration10 from "../images/inspiration/10.png";
-import Inspiration11 from "../images/inspiration/11.png";
-import Inspiration12 from "../images/inspiration/12.png";
-import Inspiration13 from "../images/inspiration/13.png";
-import Inspiration14 from "../images/inspiration/14.png";
-import Inspiration15 from "../images/inspiration/15.png";
-import Inspiration16 from "../images/inspiration/16.png";
-import Inspiration17 from "../images/inspiration/17.png";
-import Inspiration18 from "../images/inspiration/18.png";
-import Inspiration19 from "../images/inspiration/19.png";
-import Inspiration20 from "../images/inspiration/20.png";
-import Inspiration21 from "../images/inspiration/21.png";
-import Inspiration22 from "../images/inspiration/22.png";
-import Inspiration23 from "../images/inspiration/23.png";
-import Inspiration24 from "../images/inspiration/24.png";
-import Inspiration25 from "../images/inspiration/25.png";
+
+import Inspiration1 from "../images/inspiration/1.jpg";
+import Inspiration2 from "../images/inspiration/2.jpg";
+import Inspiration3 from "../images/inspiration/3.jpg";
+import Inspiration4 from "../images/inspiration/4.jpg";
+import Inspiration5 from "../images/inspiration/5.jpg";
+import Inspiration6 from "../images/inspiration/6.jpg";
+import Inspiration7 from "../images/inspiration/7.jpg";
+import Inspiration8 from "../images/inspiration/8.jpg";
+import Inspiration9 from "../images/inspiration/9.jpg";
+import Inspiration10 from "../images/inspiration/10.jpg";
+import Inspiration11 from "../images/inspiration/11.jpg";
+import Inspiration12 from "../images/inspiration/12.jpg";
+import Inspiration13 from "../images/inspiration/13.jpg";
+import Inspiration14 from "../images/inspiration/14.jpg";
+import Inspiration15 from "../images/inspiration/15.jpg";
+import Inspiration16 from "../images/inspiration/16.jpg";
+import Inspiration17 from "../images/inspiration/17.jpg";
+import Inspiration18 from "../images/inspiration/18.jpg";
+import Inspiration19 from "../images/inspiration/19.jpg";
+import Inspiration20 from "../images/inspiration/20.jpg";
+import Inspiration21 from "../images/inspiration/21.jpg";
+import Inspiration22 from "../images/inspiration/22.jpg";
+import Inspiration23 from "../images/inspiration/23.jpg";
+import Inspiration24 from "../images/inspiration/24.jpg";
+import Inspiration25 from "../images/inspiration/25.jpg";
 
 
 import Meme1 from "../images/memes/Meme1.png";
@@ -75,6 +76,7 @@ const Inspiration = () => {
                 <div className="contain1">
                     <div class="row align-items-center my-5">
                     <center>
+
                         <img
                             src={over ? Meme1 : Meme2}
                             class="img-fluid rounded mb-4 mb-lg-0"

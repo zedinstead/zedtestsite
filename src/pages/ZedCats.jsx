@@ -1,9 +1,9 @@
 import React from 'react';
 import "../custom.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ZedCat2 from "../images/zedcats/ZedCat2.png";
-import ZedCat3 from "../images/zedcats/ZedCat3.png";
-import ZedCat4 from "../images/zedcats/ZedCat4.png";
+import ZedCat2 from "../images/zedcats/ZedCat2.jpg";
+import ZedCat3 from "../images/zedcats/ZedCat3.jpg";
+import ZedCat4 from "../images/zedcats/ZedCat4.jpg";
 import { useEthers, useTokenBalance } from '@usedapp/core';
 import { NavLink } from "react-router-dom";
 
