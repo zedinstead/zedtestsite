@@ -48,10 +48,10 @@ const NFTCollections = () => {
                         <div><br></br></div>
                         
                         <p>
-                            The SuperStonk Periodicals Collection is now available for minting. Owners will be eligible for future airdrops and currently have access to the 'Insteadspiration' page, which includes an inside look at the artwork. The spage also includes an exhibition space currently showcasing a never-before-seen meme by u/ButtFarm69.</p>
+                            The SuperStonk Periodicals Collection is now available for minting. Owners will be eligible for future airdrops and currently have access to the 'Inspiration Gallery' page, which includes an inside look at the artwork. This page also includes an exhibition space currently showcasing a never-before-seen meme by u/ButtFarm69.</p>
                             <p><strong>Cost:</strong> 0.1 eth &nbsp; &nbsp; &nbsp; &nbsp; <strong>Items:</strong> 25 NFTs</p>
-                            <p><strong>EtherScan:</strong> 🚀</p>
-                            <p><strong>OpenSea:</strong> ⛵</p> 
+                            <p><a href="https://etherscan.io/address/0x0d7f6D2A0c3bF990719ecA41C9bE130f8bAAb7AF"><strong>EtherScan:</strong> 🚀</a></p>
+                            <p><a href="https://opensea.io/collection/superstonk-periodicals-collection"><strong>OpenSea:</strong> ⛵</a></p> 
                        
                         <p>
                   
@@ -93,8 +93,8 @@ const NFTCollections = () => {
                         <p>
                             The Zed Cat Collection is now available for minting. This collection acts as an access token for all ongoing and future zedinstead projects and are represented by a randomly generated cat. Owners have exclusive access to the Zed Cat Club, alongside all other zedinstead gated pages.</p>
                             <p><strong>Cost:</strong> 0.01 eth &nbsp; &nbsp; &nbsp; &nbsp; <strong>Items:</strong> 420 NFTs</p>
-                            <p><strong><a href="https://etherscan.io/address/0x37ad6637a835da66de15495ad8c7aed397b46e24">EtherScan:</a></strong> 🚀</p>
-                            <p><strong><a href="https://opensea.io/collection/zedcats">OpenSea:</a></strong> ⛵</p> 
+                            <p><a href="https://etherscan.io/address/0x37ad6637a835da66de15495ad8c7aed397b46e24"><strong>EtherScan:</strong> 🚀</a></p>
+                            <p><a href="https://opensea.io/collection/zedcats"><strong>OpenSea:</strong> ⛵</a></p> 
                             <p><br></br></p>
                         <p>
                         {account ? <ConnectMintButton2>

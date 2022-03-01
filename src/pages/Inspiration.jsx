@@ -3,37 +3,10 @@ import "../custom.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEthers, useTokenBalance } from '@usedapp/core';
 
-import Inspiration1 from "../images/inspiration/1.jpg";
-import Inspiration2 from "../images/inspiration/2.jpg";
-import Inspiration3 from "../images/inspiration/3.jpg";
-import Inspiration4 from "../images/inspiration/4.jpg";
-import Inspiration5 from "../images/inspiration/5.jpg";
-import Inspiration6 from "../images/inspiration/6.jpg";
-import Inspiration7 from "../images/inspiration/7.jpg";
-import Inspiration8 from "../images/inspiration/8.jpg";
-import Inspiration9 from "../images/inspiration/9.jpg";
-import Inspiration10 from "../images/inspiration/10.jpg";
-import Inspiration11 from "../images/inspiration/11.jpg";
-import Inspiration12 from "../images/inspiration/12.jpg";
-import Inspiration13 from "../images/inspiration/13.jpg";
-import Inspiration14 from "../images/inspiration/14.jpg";
-import Inspiration15 from "../images/inspiration/15.jpg";
-import Inspiration16 from "../images/inspiration/16.jpg";
-import Inspiration17 from "../images/inspiration/17.jpg";
-import Inspiration18 from "../images/inspiration/18.jpg";
-import Inspiration19 from "../images/inspiration/19.jpg";
-import Inspiration20 from "../images/inspiration/20.jpg";
-import Inspiration21 from "../images/inspiration/21.jpg";
-import Inspiration22 from "../images/inspiration/22.jpg";
-import Inspiration23 from "../images/inspiration/23.jpg";
-import Inspiration24 from "../images/inspiration/24.jpg";
-import Inspiration25 from "../images/inspiration/25.jpg";
-
-
 import Meme1 from "../images/memes/Meme1.png";
 import Meme2 from "../images/memes/Meme2.png";
-
-
+import ImageGallery from 'react-image-gallery';
+import "react-image-gallery/styles/css/image-gallery.css";
 
   //FIRST TOKEN COLLECTION
   //Mainnet NFT 1
@@ -41,7 +14,7 @@ const ZEDCATNFT = '0x37Ad6637A835DA66dE15495aD8C7AEd397B46E24'
 
   //SECOND TOKEN COLLECTION
   //Mainnet NFT 2
-const PUNK = '0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D'
+const PUNK = '0x0d7f6D2A0c3bF990719ecA41C9bE130f8bAAb7AF'
 
 const Inspiration = () => {
     const { account } = useEthers()
@@ -51,6 +24,109 @@ const Inspiration = () => {
 
   
     const secondTokenBalance = useTokenBalance(PUNK, account)
+
+    const images = [
+        {
+          original: "https://zedinstead.com/static/media/1.aad2e2096f311df4e4d0.jpg",
+          originalClass: "app-image-gallery"
+        },
+        {
+          original: "https://zedinstead.com/static/media/2.e1c5731dae8aa153067f.jpg",
+          originalClass: "app-image-gallery"
+        },
+        {
+          original: "https://zedinstead.com/static/media/3.dbe8651b023a210d5ead.jpg",
+          originalClass: "app-image-gallery"
+        },
+        {
+            original: "https://zedinstead.com/static/media/4.15c25600ec4694955335.jpg",
+            originalClass: "app-image-gallery"
+          },
+          {
+            original: "https://zedinstead.com/static/media/5.6adfa4761b991ffb91d8.jpg",
+            originalClass: "app-image-gallery"
+          },
+          {
+            original: "https://zedinstead.com/static/media/6.cb1af0462330424fed01.jpg",
+            originalClass: "app-image-gallery"
+          },
+          {
+            original: "https://zedinstead.com/static/media/7.49d28dd8b762ca4a8d0f.jpg",
+            originalClass: "app-image-gallery"
+          },
+          {
+            original: "https://zedinstead.com/static/media/8.13908e53a12e28c31028.jpg",
+            originalClass: "app-image-gallery"
+          },
+          {
+            original: "https://zedinstead.com/static/media/9.070749c70e6658ed0508.jpg",
+            originalClass: "app-image-gallery"
+          },
+          {
+            original: "https://zedinstead.com/static/media/10.212aba9e538d864d5704.jpg",
+            originalClass: "app-image-gallery"
+          },
+          {
+            original: "https://zedinstead.com/static/media/11.2e21199cfa645777ae31.jpg",
+            originalClass: "app-image-gallery"
+          },
+          {
+            original: "https://zedinstead.com/static/media/12.730dbf1a7cd5bb8e0b67.jpg",
+            originalClass: "app-image-gallery"
+          },
+          {
+            original: "https://zedinstead.com/static/media/13.a090813c18aa453bf201.jpg",
+            originalClass: "app-image-gallery"
+          },
+          {
+            original: "https://zedinstead.com/static/media/14.0e8e6349dad7ac7c154c.jpg",
+            originalClass: "app-image-gallery"
+          },
+          {
+            original: "https://zedinstead.com/static/media/15.1a300fadebf325a66280.jpg",
+            originalClass: "app-image-gallery"
+          },
+          {
+            original: "https://zedinstead.com/static/media/16.15e8d41a6874fd34b124.jpg",
+            originalClass: "app-image-gallery"
+          },
+          {
+            original: "https://zedinstead.com/static/media/17.ad0ae439de9f122ba2de.jpg",
+            originalClass: "app-image-gallery"
+          },
+          {
+            original: "https://zedinstead.com/static/media/18.3bf1a85e4b79d5dcf9b9.jpg",
+            originalClass: "app-image-gallery"
+          },
+          {
+            original: "https://zedinstead.com/static/media/19.98cbcea5c69b6373e548.jpg",
+            originalClass: "app-image-gallery"
+          },
+          {
+            original: "https://zedinstead.com/static/media/20.9627700ed91e540a309f.jpg",
+            originalClass: "app-image-gallery"
+          },
+          {
+            original: "https://zedinstead.com/static/media/21.c90f1509d2b6e91235b6.jpg",
+            originalClass: "app-image-gallery"
+          },
+          {
+            original: "https://zedinstead.com/static/media/22.4193527cc61567db5e8c.jpg",
+            originalClass: "app-image-gallery"
+          },
+          {
+            original: "https://zedinstead.com/static/media/23.e90669771a98607099f9.jpg",
+            originalClass: "app-image-gallery"
+          },
+          {
+            original: "https://zedinstead.com/static/media/24.95165f42bc70f3a73498.jpg",
+            originalClass: "app-image-gallery"
+          },
+          {
+            original: "https://zedinstead.com/static/media/25.cb6737ea3261b990f786.jpg",
+            originalClass: "app-image-gallery"
+          },
+      ];
     
     return (
         <div className="About">
@@ -87,257 +163,17 @@ const Inspiration = () => {
                     </div>
                 </div>
                 </div>
-                <div class="container">
-                <div className="contain1">
-                    <div class="row align-items-center my-5">
-                        <img
-                            class="img-fluid rounded mb-4 mb-lg-0"
-                            src={Inspiration1}
-                            alt=""
+                <div class="container">  
+                        <div></div>
+                        <ImageGallery 
+                        items={images} 
+                        showBullets={true}
+                        showFullscreenButton={false}
+                        showPlayButton={false}
+                        showNav={false}
                         />
-                    </div>
-                    </div>
-                    <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration2}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration3}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration4}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration5}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration6}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration7}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration8}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration9}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration10}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration11}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration12}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration13}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration14}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration15}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration16}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration17}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration18}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration19}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration20}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration21}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration22}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration23}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration24}
-                        alt=""
-                    />
-               
-                
-            </div>
-            <div class="row align-items-center my-5">
-                
-                <img
-                        class="img-fluid rounded mb-4 mb-lg-0"
-                        src={Inspiration25}
-                        alt=""
-                    />
-               
-                
-            </div>
-        </div>
+                        <div></div>
+                </div>
         <div class="container">
             <div className="contain1">
                 <div class="row align-items-center my-5">

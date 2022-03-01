@@ -1,11 +1,11 @@
 import React, { useEffect, useState, useContext } from 'react';
 import '../custom.css';
-import contract from './contracts/NFTCollectible.json';
+import contract from './contracts/PeriodicalsCollection.json';
 import { ethers } from 'ethers';
 import { useEthers } from '@usedapp/core';
 
 
-const contractAddress = "0x1699C8070EA13288d7b25661a27f0270EdB4E6B8";
+const contractAddress = "0x0d7f6D2A0c3bF990719ecA41C9bE130f8bAAb7AF";
 const abi = contract.abi;
 
 function ConnectMintButton() {
@@ -51,7 +51,7 @@ function ConnectMintButton() {
     }
   }
 
-  const mintNftHandler = async () => {
+  const mintNftHandler1 = async () => {
     try {
       const { ethereum } = window;
 
@@ -61,7 +61,7 @@ function ConnectMintButton() {
         const nftContract = new ethers.Contract(contractAddress, abi, signer);
 
         console.log("Initialize payment");
-        let nftTxn = await nftContract.mintNFTs(1, { value: ethers.utils.parseEther("0.01") });
+        let nftTxn = await nftContract.mintNFTs(1, { value: ethers.utils.parseEther("0.1") });
 
         console.log("Mining... please wait");
         await nftTxn.wait();
@@ -77,10 +77,10 @@ function ConnectMintButton() {
     }
   }
 
-  const mintNftButton = () => {
+  const mintNftButton1 = () => {
     return (
-      <button onClick={mintNftHandler} className='mint-nft-button'>
-        DO NOT PUSH - NOT AVAILABLE YET
+      <button onClick={mintNftHandler1} className='mint-nft-button'>
+        Mint NFT
       </button>
     )
   }
@@ -93,7 +93,7 @@ function ConnectMintButton() {
     <div className='main-app'>
       <h1></h1>
       <div>
-        {account ? mintNftButton() : ''}
+        {account ? mintNftButton1() : ''}
       </div>
     </div>
   )

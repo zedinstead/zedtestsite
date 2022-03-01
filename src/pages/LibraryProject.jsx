@@ -1,7 +1,7 @@
 import React from 'react';
 import "../custom.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import DropDown from "../components/DropDown.jsx"
+import IPFSPortal from "../components/IPFSPortal/IPFSPortal.jsx"
 import { Link } from 'react-router-dom';
 
 import Library from "../images/Library.jpg";
@@ -55,7 +55,7 @@ const LibraryProject = () => {
                         <h1 class="font-weight-bold"><b>PDF Library Hosted on IPFS & Linked in NFT's Metadata </b></h1>
                         <div><br></br></div>
                         <p>
-                        To ensure the library's continued existence and availability, I've created an easy to use portal to view the library that is being hosted on IPFS and will be linked in the metadata of each NFT in the upcoming collection. Currently the Periodicals Collection is available for minting <Link to="/NFTCollections">here</Link>. Explore the portal below and check out the <a href="https://github.com/zedinstead/GME_PDF_LIBRARY_IPFS_PORTAL.git">github repository</a> to add it to your own site!</p>
+                        To ensure the library's continued existence and availability, I've created an easy to use portal to view the library that is being hosted on IPFS and will be linked in the metadata of each NFT in the upcoming collection. Currently the Periodicals Collection is available for minting <Link to="/NFTCollections">here</Link>. Explore the portal below and check out the <a href="https://github.com/zedinstead/GME_DD_PDF_LIBRARY_IPFS_PORTAL">github repository</a> to add it to your own site!</p>
                         <p><br></br></p>
                     </div>    
                     </div>
@@ -79,7 +79,7 @@ const LibraryProject = () => {
                         <h1 class="font-weight-bold"><b>IPFS PDF LIBRARY PORTAL</b></h1>
                         <div><br></br></div>
                         <center>
-                        <DropDown />   
+                        <IPFSPortal />   
                         </center>
                     <div><br></br></div>
                 </div>

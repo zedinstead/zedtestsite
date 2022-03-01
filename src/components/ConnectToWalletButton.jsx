@@ -6,7 +6,7 @@ function ConnectToWalletButton() {
     const { activateBrowserWallet, account } = useEthers()
 return (
     <div>
-        <ConnectButton onClick={() => activateBrowserWallet()}>Connect</ConnectButton>
+        <ConnectButton onClick={() => activateBrowserWallet()}>connect wallet</ConnectButton>
     </div>
 );
 }

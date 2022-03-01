@@ -128,3 +128,101 @@ a:hover {
   margin-right: 35px;
 }
 
+.head-text {
+  position: relative;
+}
+
+.text-on-image {
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  color: rgb(10, 7, 212);
+  font-weight: bold;
+  overflow-wrap: unset;
+  top: -320px;
+  right: 80px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .text-on-image {
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    top: -274px;
+  right: 65px;
+ color: rgb(10, 7, 212);
+ font-size:small;
+  }  
+}
+
+@media only screen and (max-width: 1200px) {
+  .text-on-image {
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    top: -228px;
+  right: 55px;
+ color: rgb(10, 7, 212);
+ font-size:small;
+  }  
+}
+
+@media only screen and (max-width: 1000px) {
+  .text-on-image {
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    top: -363px;
+  right: 81px;
+ color: rgb(10, 7, 212);
+ font-size:medium;
+  }  
+}
+
+@media only screen and (max-width: 767px) {
+  .text-on-image {
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    top: -270px;
+  right: 60px;
+ color: rgb(10, 7, 212);
+ font-size:small;
+  }  
+}
+
+@media only screen and (max-width: 600px) {
+  .text-on-image {
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    top: -478px;
+  right: 60px;
+ color: rgb(10, 7, 212);
+ font-size:small;
+  }  
+}
+
+
+@media screen and (max-width: 600px) {
+  .text-on-image {
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    left: -13%;
+    margin-top: 45%;
+ color: rgb(10, 7, 212);
+ font-size:x-small;
+  }  
+}
+
+img.rounded-corners {
+  border-radius:40px;
+}

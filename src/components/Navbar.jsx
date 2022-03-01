@@ -5,6 +5,7 @@ import "../custom.css";
 import ConnectToWalletButton from './ConnectToWalletButton';
 import { useEthers, useTokenBalance } from '@usedapp/core';
 import styled from 'styled-components';
+import { getDefaultProvider } from "ethers";
 
   //FIRST TOKEN COLLECTION
   //Mainnet NFT 1
@@ -14,20 +15,31 @@ import styled from 'styled-components';
   //SECOND TOKEN COLLECTION
   //Mainnet NFT 2
   //Opens Inspiration Page
-const PUNK = '0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D'
+const PUNK = '0x0d7f6D2A0c3bF990719ecA41C9bE130f8bAAb7AF'
+
+  //THIRD TOKEN ENS
+  //Mainnet ENS Domains
+  //Opens the ENS Domain Club
+const ENSNAMES = '0x57f1887a8BF19b14fC0dF6Fd9B2acc9Af147eA85'
 
 const Navbar = () => {
     const { account, deactivate } = useEthers()
 
     const firstTokenBalance = useTokenBalance(ZEDCATNFT, account)
-
-  
     const secondTokenBalance = useTokenBalance(PUNK, account)
+    const thirdTokenBalance = useTokenBalance(ENSNAMES, account)
     
     function handleDeactivateAccount() {
         deactivate()
     }
   
+    const mainnetProvider = getDefaultProvider();
+    mainnetProvider.lookupAddress(account).then((result) => {
+      document.getElementById("lookup").innerText = ` ${result}`;
+    });
+
+    const ENSNamer = <span id="lookup"/>;
+
 
     return (
         <div>
@@ -56,39 +68,28 @@ const Navbar = () => {
                                 <NavLink className="nav-link" to="/NFTCollections">nft collections</NavLink>
                             </li>
                 
-                            <li className="nav-item">
+                    
+
+                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/contact">contact</NavLink>
                             </li>
-
-
-
-                          
-                    <li className="nav-item">
-
-                    {firstTokenBalance >= 0.000000000000000001 ?
-
+                            <li className="nav-item">
+                    {thirdTokenBalance >= 0.000000000000000001 ?
                     <NavLink className="nav-link" to="/zedcatclub">zed cat club</NavLink>
-
                     : ''}
-                    </li>
+                    </li>        
 
                     <li className="nav-item">
-
                     {secondTokenBalance >= 0.000000000000000001 || firstTokenBalance >= 0.000000000000000001 ?
-
                     <NavLink className="nav-link" to="/inspiration">inspiration gallery</NavLink>
-
                     : ''}
                     </li>
-
 
                             <li className="nav-item">
-                               
-                                {account ? <ConnectButton onClick={() => handleDeactivateAccount()}> {account && `${account.slice(0, 6)}...${account.slice(
-                            account.length - 4,
-                            account.length
-                        )}`} </ConnectButton>
-                        : <ConnectToWalletButton />}
+                                {account ? 
+                                    <ConnectButton onClick={() => handleDeactivateAccount()}> {thirdTokenBalance >= 0.000000000000000001 ? <> {ENSNamer} </> : <>
+                                    {account && `${account.slice(0, 6)}...${account.slice(account.length - 4, account.length)}`}</>} </ConnectButton>
+                                : <ConnectToWalletButton />}
                             </li>
                         </ul>
                     </div>
