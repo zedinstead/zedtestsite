@@ -7,6 +7,7 @@ import { useEthers, useTokenBalance } from '@usedapp/core';
 import styled from 'styled-components';
 import { getDefaultProvider } from "ethers";
 
+
   //FIRST TOKEN COLLECTION
   //Mainnet NFT 1
   //Opens Zed Cat Club Page
@@ -54,36 +55,23 @@ const Navbar = () => {
                     <div>
                         <ul className="navbar-nav ml-auto">
 
-                           
-                        
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/libraryproject">library project</NavLink>
-                            </li>
-
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/zedcats">zed cats</NavLink>
-                            </li>
-
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/NFTCollections">nft collections</NavLink>
-                            </li>
-                
                     
 
                              <li className="nav-item">
                                 <NavLink className="nav-link" to="/contact">contact</NavLink>
                             </li>
+
+                            <li className="nav-item">
+                                <NavLink className="nav-link" to="/loopheads">loopheads</NavLink>
+                            </li>
+
                             <li className="nav-item">
                     {thirdTokenBalance >= 0.000000000000000001 ?
                     <NavLink className="nav-link" to="/zedcatclub">zed cat club</NavLink>
                     : ''}
                     </li>        
 
-                    <li className="nav-item">
-                    {secondTokenBalance >= 0.000000000000000001 || firstTokenBalance >= 0.000000000000000001 ?
-                    <NavLink className="nav-link" to="/inspiration">inspiration gallery</NavLink>
-                    : ''}
-                    </li>
+                   
 
                             <li className="nav-item">
                                 {account ? 
